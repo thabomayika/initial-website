@@ -1,0 +1,258 @@
+
+
+.wrapper {
+    width: 100%;
+    margin: repeat(auto, 5);
+    display: grid;
+    box-sizing: border-box;
+    margin: 0;
+    padding-left: 10%; 
+}
+
+.contact-info {
+    background-color: orangered;
+    color: white;
+    padding: 10px;
+}
+
+.header {
+    background-image: url('young-person.jpg');
+    color: whitesmoke;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    height: 417px;
+    width: 626px;
+    background-repeat: no-repeat;
+}
+
+.btn {
+    background-color: goldenrod;
+    border: 10%;
+    width: 150%;
+    height: 40%;
+    
+}
+
+.about-cont {
+    text-align: center;
+    padding-bottom: 15px;
+}
+
+.about-cont .about-me p {
+    font-size: 25px;
+    padding-top: 30px;
+    padding-bottom: 50px;
+    background-image: url("young-person.jpg");
+
+
+}
+
+.about-cont .about-me h1 {
+    padding-top: 60px;
+}
+
+.item:nth-child(even) {
+    background-color: teal;
+}
+
+.footer {
+    background-color:blueviolet;
+    color: #fff;
+    height: 50px;
+    text-align: center;
+    position: relative;
+}
+
+.contact-info {
+    text-align: center;
+}
+
+.info {
+    float: left;
+    width: 30.33%;
+}
+
+.contact-form {
+    float: left;
+    width: 30.33%;
+}
+
+.extended-info {
+    float: left;
+    width: 30.33%;
+}
+
+form {
+    margin-top: 50px;
+    transition: all 4s ease-in-out;
+}
+
+.form-control {
+    width: 300px;
+    background: transparent;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid gray;
+    color: #fff;
+    font-size: 18px;
+    margin-bottom: 16px;
+}
+
+.input {
+    height: 45px;
+}
+
+form .submit {
+    background: #ff5722;
+    border-color: transparent;
+    color: #fff;
+    font-size: 20px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    height: 50px;
+    margin-top: 20px;
+}
+
+form .submit:hover {
+    background-color: teal;
+}
+@media only screen and (min-width: 768px) {
+    
+    
+    .wrapper {
+        width: 90%;
+        margin: 0 auto;
+        display: grid;
+        box-sizing: border-box;
+        padding-block: 0;
+        margin: 0;
+    }
+    
+    .contact-info {
+        background-color: tomato;
+        color: white;
+        padding: 10px;
+    }
+    
+    .header {
+        background-image: url('young-person.jpg');
+        color: white;
+        padding-top: 10%;
+        text-align: center;
+        height: 400px;
+        width: 100%;
+        background-repeat: no-repeat;
+    }
+    
+    .btn {
+        background-color: transparent;
+        border: 5px;
+        width: 150px;
+        height: 30px;
+    }
+    
+    .about-cont {
+        text-align: center;
+    }
+    
+    .about-cont .about-me p {
+        font-size: 25px;
+        padding-top: 30px;
+        padding-bottom: 50px;
+    
+    }
+    
+    .about-cont .about-me h1 {
+        padding-top: 50px;
+    }
+    
+    .item:nth-child(even) {
+        background-color: teal;
+    }
+    
+    .footer {
+        background-color: #000;
+        color: #fff;
+        height: 50px;
+        text-align: center;
+        position: relative;
+    }
+    
+    .contact-info {
+        text-align: center;
+    }
+    
+    .info {
+        float: left;
+        width: 30.33%;
+    }
+    
+    .contact-form {
+        float: left;
+        width: 30.33%;
+    }
+    
+    .extended-info {
+        float: left;
+        width: 30.33%;
+    }
+    
+    form {
+        margin-top: 50px;
+        transition: all 4s ease-in-out;
+    }
+    
+    .form-control {
+        width: 300px;
+        background: transparent;
+        border: none;
+        outline: none;
+        border-bottom: 1px solid gray;
+        color: #fff;
+        font-size: 18px;
+        margin-bottom: 16px;
+    }
+    
+    .input {
+        height: 45px;
+    }
+    
+    form .submit {
+        background: #ff5722;
+        border-color: transparent;
+        color: #fff;
+        font-size: 20px;
+        font-weight: bold;
+        letter-spacing: 2px;
+        height: 50px;
+        margin-top: 20px;
+    }
+    
+    form .submit:hover {
+        background-color: teal;
+    }
+}
+
+@media only screen and (min-width: 1000px) {
+    .wrapper {
+        width: 100%;
+        margin: 0 auto;
+        display: grid;
+    }
+    
+    .header {
+        background-image: url('young-person.jpg');
+        color: white;
+        padding-top: 100px;
+        text-align: center;
+        height: 400px;
+        width: 200%;
+        background-repeat: no-repeat;
+    }
+
+    .footer {
+        height: 40px;
+    }
+    
+}
